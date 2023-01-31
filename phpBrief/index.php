@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -232,7 +231,7 @@ usort($teams, function ($a, $b) {
                     </tr>
                     <tr class="row0">
                         <td> <img src="imgs/morocco.png"> MARRUECOS</td>
-                        <td class="inpTd"><input type="number" name="a1" min="0"> <?php if(isset($_POST["a1"])){ echo $_POST["a1"]; }?> -  <?php if(isset($_POST["a2"])){ echo $_POST["a2"];} ?><input type="number" name="a2" min="0"></td>
+                        <td class="inpTd"><input type="number" name="a1" min="0" required> <?php if(isset($_POST["a1"])){ echo $_POST["a1"]; }?> -  <?php if(isset($_POST["a2"])){ echo $_POST["a2"];} ?><input type="number" name="a2" min="0" required></td>
                         <td>CROACIA <img src="imgs/croatia.png"></td>
                     </tr>
                     <tr class="row1">
@@ -242,7 +241,7 @@ usort($teams, function ($a, $b) {
                     </tr>
                     <tr class="row0">
 <td> <img src="imgs/belgium.png"> BELGICA</td>
-<td class="inpTd"><input type="number" name="b1" min="0">  <?php if(isset($_POST["b1"])){ echo $_POST["b1"];} ?> -  <?php if(isset($_POST["b2"])){ echo $_POST["b2"];} ?><input type="number" name="b2" min="0"></td>
+<td class="inpTd"><input type="number" name="b1" min="0"  required>  <?php if(isset($_POST["b1"])){ echo $_POST["b1"];} ?> -  <?php if(isset($_POST["b2"])){ echo $_POST["b2"];} ?><input type="number" name="b2" min="0" required></td>
 <td>CANADA <img src="imgs/canada.png"></td>
 </tr>
     <tr class="row1">
@@ -252,7 +251,7 @@ usort($teams, function ($a, $b) {
     </tr>
     <tr class="row0">
         <td> <img src="imgs/belgium.png"> BELGICA</td>
-        <td class="inpTd"><input type="number" name="c1" min="0"> <?php if(isset($_POST["c1"])){ echo $_POST["c1"];} ?> -  <?php if(isset($_POST["c2"])){ echo $_POST["c2"];} ?><input type="number" name="c2" min="0"></td>
+        <td class="inpTd"><input type="number" name="c1" min="0" required> <?php if(isset($_POST["c1"])){ echo $_POST["c1"];} ?> -  <?php if(isset($_POST["c2"])){ echo $_POST["c2"];} ?><input type="number" name="c2" min="0" required></td>
         <td>MARRUECOS <img src="imgs/morocco.png"></td>
     </tr>
     <tr class="row1">
@@ -262,7 +261,7 @@ usort($teams, function ($a, $b) {
     </tr>
     <tr class="row0">
         <td> <img src="imgs/croatia.png"> CROATIA</td>
-        <td class="inpTd"><input type="number" name="d1" min="0"> <?php if(isset($_POST["d1"])){ echo $_POST["d1"];}?> -  <?php if(isset($_POST["d2"])){ echo $_POST["d2"];} ?><input type="number" name="d2" min="0"></td>
+        <td class="inpTd"><input type="number" name="d1" min="0" required> <?php if(isset($_POST["d1"])){ echo $_POST["d1"];}?> -  <?php if(isset($_POST["d2"])){ echo $_POST["d2"];} ?><input type="number" name="d2" min="0" required></td>
 <td>CANADA <img src="imgs/canada.png"></td>
 </tr>
     <tr class="row1">
@@ -272,7 +271,7 @@ usort($teams, function ($a, $b) {
 </tr>
 <tr class="row0">
     <td> <img src="imgs/croatia.png"> CROATIA</td>
-<td class="inpTd"><input type="number" name="f1" min="0"> <?php if(isset($_POST["f1"])){ echo $_POST["f1"];} ?> -  <?php if(isset($_POST["f2"])){ echo $_POST["f2"];} ?><input type="number" name="f2" min="0"></td>
+<td class="inpTd"><input type="number" name="f1" min="0" required> <?php if(isset($_POST["f1"])){ echo $_POST["f1"];} ?> -  <?php if(isset($_POST["f2"])){ echo $_POST["f2"];} ?><input type="number" name="f2" min="0" required></td>
 <td>BELGICA  <img src="imgs/belgium.png"></td>
 </tr>
 <tr class="row1">
@@ -282,7 +281,7 @@ usort($teams, function ($a, $b) {
 </tr>
 <tr class="row0">
     <td> <img src="imgs/canada.png"> CANADA</td>
-    <td class="inpTd"><input type="number" name="e1" min="0"> <?php if(isset($_POST["e1"])){ echo $_POST["e1"];} ?> -  <?php if(isset($_POST["e2"])){ echo $_POST["e2"];} ?><input type="number" name="e2" min="0"></td>
+    <td class="inpTd"><input type="number" name="e1" min="0" required> <?php if(isset($_POST["e1"])){ echo $_POST["e1"];} ?> -  <?php if(isset($_POST["e2"])){ echo $_POST["e2"];} ?><input type="number" name="e2" min="0" required></td>
 <td>MARRUECOS <img src="imgs/morocco.png"></td>
 </tr>
 </table>
